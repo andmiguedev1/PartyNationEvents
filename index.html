@@ -17,29 +17,72 @@
     <!-- Place favicon.ico in the root directory -->
     <link rel="manifest" href="site.webmanifest" />
     <link rel="apple-touch-icon" href="icon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- BROWSER RESETS  -->
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <!-- SITE LAYOUT -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.usebootstrap.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      type="text/css"
+    />
     <!-- SITE FONTS  -->
     <link
       href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900&display=swap"
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap"
       rel="stylesheet"
-    />
-    <!--  -->
-    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.usebootstrap.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      href="css/vendor/fontawesome.min.css"
       type="text/css"
     />
-    <!--  -->
-    <link rel="stylesheet" href="css/main.css" />
-    <meta name="theme-color" content="#fafafa" />
+    <!-- SITE STYLING -->
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- <meta name="theme-color" content="#fafafa" /> -->
   </head>
 
   <body>
-    <!-- MAIN NAVBAR -->
+    <header class="site__header">
+      <div class="container">
+        <div class="site__logo">
+          <a href="/index.html">
+            <h3>Party Nation Events</h3>
+          </a>
+        </div>
+        <!-- MAIN NAVBAR -->
+        <div class="site__navbar">
+          <nav class="navbar--menu">
+            <ul>
+              <li class="active"><a href="#about.html">About</a></li>
+              <li>
+                <a href="#events.html">Private Events</a>
+                <ul class="navbar--dropdown">
+                  <li><a href="#corporate-events">Corporate</a></li>
+                  <li><a href="#wedding-events">Weddings</a></li>
+                  <li><a href="#bar-mitzvah-events">Bar Mitzvahs</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#fun-shows.html">Fun Shows</a>
+                <ul class="navbar--dropdown">
+                  <li><a href="#game-shows.html">Game Shows</a></li>
+                  <li><a href="#school-shows.html">School Shows</a></li>
+                </ul>
+              </li>
+              <li><a href="#extras.html">Extras</a></li>
+              <li><a href="#contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
+          <a href="#contact-us" class="primary-btn top--btn"
+            ><i class="fa fa-phone"></i>800-920-4149
+          </a>
+        </div>
+      </div>
+    </header>
 
     <!-- SITE PLUGINS  -->
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
