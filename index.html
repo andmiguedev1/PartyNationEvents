@@ -17,10 +17,6 @@
     <!-- Place favicon.ico in the root directory -->
     <link rel="manifest" href="site.webmanifest" />
     <link rel="apple-touch-icon" href="icon.png" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap"
-      rel="stylesheet"
-    />
     <!-- BROWSER RESETS  -->
     <link rel="stylesheet" href="css/normalize.css" type="text/css" />
     <!-- SITE LAYOUT -->
@@ -31,7 +27,7 @@
     />
     <!-- SITE FONTS  -->
     <link
-      href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -50,45 +46,89 @@
   </head>
 
   <body>
-    <!-- SITE NAVBAR -->
-    <header class="site__header">
-      <div class="container">
-        <div class="col-12">
-          <nav class="header__navbar">
-            <a href="index.html" class="navbar__logo">
-              <img src="#" alt="Party Nation Events" />
-            </a>
-            <ul class="nav">
-              <li><a href="#about">About</a></li>
-              <li class="navbar__menu">
-                <a href="javascript:void(0)">Private Events</a>
-                <ul class="sub-menu">
-                  <li><a href="#about-us.html">Corporate</a></li>
-                  <li><a href="#our-services.html">Weddings</a></li>
-                  <li><a href="#contact-us.html">Bar Mitzvahs</a></li>
+    <header>
+      <!-- SITE NAVBAR -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">
+            <h1>Party Nation Events</h1>
+          </a>
+          <a href="#contact" class="btn primary-btn d-lg-none ms-auto me-4">
+            <i class="fa fa-phone"></i>800-920-4149
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+              <li class="nav-item">
+                <a class="nav-link click-scroll" href="#section_1">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Private Events
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Corporate</a></li>
+                  <li><a class="dropdown-item" href="#">Weddings</a></li>
+                  <li><a class="dropdown-item" href="#">Bar Mitzvahs</a></li>
                 </ul>
               </li>
-              <li class="navbar__menu">
-                <a href="javascript:void(0)">Fun Shows</a>
-                <ul class="sub-menu">
-                  <li><a href="#about-us.html">Game Shows</a></li>
-                  <li><a href="#our-services.html">School Shows</a></li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Fun Shows
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Game Shows</a></li>
+                  <li><a class="dropdown-item" href="#">School Shows</a></li>
                 </ul>
               </li>
-              <li><a href="#extras">Extras</a></li>
-              <li>
-                <a href="#contact"><i class="fa fa-phone"></i>800-920-4149</a>
+              <li class="nav-item">
+                <a class="nav-link click-scroll" href="#section_3">Extras</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link click-scroll" href="#section_4"
+                  >Contact Us</a
+                >
               </li>
             </ul>
-            <a class="menu-trigger">
-              <span>Menu</span>
+            <a href="#contact" class="btn primary-btn d-lg-block d-none">
+              <i class="fa fa-phone"></i>800-920-4149
             </a>
-          </nav>
+          </div>
         </div>
-      </div>
+      </nav>
+      <!--  -->
     </header>
-    <!--  -->
-
     <!-- SITE PLUGINS  -->
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
