@@ -1,8 +1,11 @@
 "use strict";
 
 (function ($) {
-  $(".mobile-menu").slicknav({
-    prependTo: "#toggle-mobile-menu",
-    allowParentLinks: true,
-  });
+  // Open Mobile Menu
+  if ($(".menu-trigger").length) {
+    $(".menu-trigger").on("click", function () {
+      $(this).toggleClass("active");
+      $(".site__header .nav").slideToggle(200);
+    });
+  }
 })(jQuery);
