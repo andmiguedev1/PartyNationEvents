@@ -182,9 +182,15 @@
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1277px) {
+  ul.navbar-nav li a {
+    font-size: 1rem !important;
+  }
+  .carousel-item {
+    height: 90vh !important;
+  }
   .carousel-caption {
-    top: -20%;
+    top: -10%;
     left: -20%;
     right: 0;
     bottom: 0;
@@ -198,14 +204,12 @@
     margin-left: -3.5rem;
     font-size: 3.5rem !important;
   }
-
   .caption-subtitle {
     min-width: 900px;
     margin-left: -3.5rem;
     font-size: 1.5rem !important;
     margin-bottom: 1.7rem !important;
   }
-
   .cta-btn {
     padding: 0.8rem 2.8rem !important;
     margin-left: -3rem;
@@ -213,8 +217,11 @@
 }
 
 @media (min-width: 990px) and (max-width: 1279px) {
+  ul.navbar-nav li a {
+    font-size: 0.9rem !important;
+  }
   .carousel-caption {
-    top: -20%;
+    top: -10%;
     left: -10%;
     right: 0;
     bottom: 0;
@@ -274,30 +281,42 @@
   }
 }
 
-@media (min-width: 540px) {
+@media (max-width: 540px) {
   .carousel-caption {
     margin-top: 80px;
   }
   .caption-title {
-    font-size: 2.5rem;
-    padding-left: 0.5rem;
+    font-size: 2.35rem;
+    padding-left: 0.8rem;
   }
   .caption-subtitle {
     max-width: 470px;
     padding-top: 0.4rem;
-    padding-left: 0.6rem;
+    padding-left: 0.8rem;
     font-size: 1.3rem;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 10%;
   }
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .cta-btn {
+    margin-top: 0.5rem;
+    padding: 0.6rem 2rem !important;
+    margin-left: 0.9rem;
   }
 }
 
 @media (min-width: 360px) and (max-width: 416px) {
   .primary-btn {
     display: none !important;
+  }
+  .carousel-item {
+    height: 80vh !important;
   }
   .carousel-caption {
     margin-top: 70px;
