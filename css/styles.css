@@ -169,6 +169,10 @@
 }
 
 /*---------------------------------------
+  HOME ABOUT
+-----------------------------------------*/
+
+/*---------------------------------------
   RESPONSIVE
 -----------------------------------------*/
 
@@ -218,9 +222,12 @@
     padding: 0.8rem 2.8rem !important;
     margin-left: -3rem;
   }
+  .m-list {
+    margin-left: 1.5rem;
+  }
 }
 
-@media (min-width: 990px) and (max-width: 1279px) {
+@media (min-width: 990px) and (max-width: 1280px) {
   ul.navbar-nav li a {
     font-size: 0.9rem !important;
   }
@@ -257,6 +264,16 @@
     padding: 0.8rem 2.5rem !important;
     margin-left: -4.5rem;
   }
+  .show-block {
+    display: none;
+  }
+  .m-list {
+    margin-left: 1.5rem;
+  }
+  .h-adjust img {
+    width: 100%;
+    height: 120%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
@@ -282,6 +299,9 @@
     margin-top: 0.5rem;
     padding: 0.8rem 2.5rem !important;
     margin-left: 1.5rem;
+  }
+  .m-list {
+    margin-left: 2rem;
   }
 }
 
@@ -313,6 +333,12 @@
     padding: 0.6rem 2rem !important;
     margin-left: 0.9rem;
   }
+  .show-block {
+    display: none;
+  }
+  .m-list {
+    margin-left: 1.5rem;
+  }
 }
 
 @media (min-width: 360px) and (max-width: 416px) {
@@ -341,6 +367,12 @@
   }
   .cta-btn {
     padding: 0.7rem 2.2rem !important;
+  }
+  .show-block {
+    display: none;
+  }
+  .m-list {
+    margin-left: 1rem;
   }
 }
 
@@ -377,5 +409,14 @@
   }
   .cta-btn {
     padding: 0.5rem 1.5rem !important;
+  }
+  .show-block {
+    display: none;
+  }
+  .m-text {
+    margin-left: 0.35rem;
+  }
+  .m-list {
+    margin-left: 1rem;
   }
 }
