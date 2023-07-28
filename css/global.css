@@ -5,6 +5,7 @@
   --white-color: #ffffff;
   --primary-color: #1424d9;
   --secondary-color: #ec3411;
+  --tertiary-color: #662cba;
   --section-bg-color: #f0f8ff;
   --primary-btn-bg-color: #ec3411;
   --primary-btn-bg-hover-color: #1424d9;
@@ -173,4 +174,38 @@ strong {
 .primary-btn i {
   padding-right: 10px;
   font-size: 1rem;
+}
+
+/*---------------------------------------
+  Bootstrap Custom
+-----------------------------------------*/
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.text-lead {
+  color: #464343 !important;
+}
+
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+/*---------------------------------------
+  Custom             
+-----------------------------------------*/
+.font-medium {
+  font-weight: 600;
+}
+
+.text-tertiary {
+  color: var(--tertiary-color);
+}
+
+.bg-section {
+  background-color: rgb(242, 242, 247);
+}
+
+.bg-tertiary {
+  background-color: var(--tertiary-color);
 }

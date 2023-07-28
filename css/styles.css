@@ -168,6 +168,10 @@
   border: 15px solid #1424d9;
 }
 
+/*---------------------------------------
+  RESPONSIVE
+-----------------------------------------*/
+
 @media (max-width: 767px) {
   #header-carousel .carousel-item {
     position: relative;
