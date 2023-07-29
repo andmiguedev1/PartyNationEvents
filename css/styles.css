@@ -218,16 +218,25 @@
     font-size: 1.5rem !important;
     margin-bottom: 1.7rem !important;
   }
+  .show-block {
+    display: none;
+  }
   .cta-btn {
     padding: 0.8rem 2.8rem !important;
     margin-left: -3rem;
   }
-  .m-list {
+  .text-h-font {
+    font-size: 43px;
+  }
+  .text-p-font {
+    font-size: 20px;
+  }
+  .list-ml {
     margin-left: 1.5rem;
   }
 }
 
-@media (min-width: 990px) and (max-width: 1280px) {
+@media (min-width: 990px) and (max-width: 1276px) {
   ul.navbar-nav li a {
     font-size: 0.9rem !important;
   }
@@ -267,7 +276,13 @@
   .show-block {
     display: none;
   }
-  .m-list {
+  .text-h-font {
+    font-size: 35px;
+  }
+  .text-p-font {
+    font-size: 18px;
+  }
+  .list-ml {
     margin-left: 1.5rem;
   }
   .h-adjust img {
@@ -300,8 +315,11 @@
     padding: 0.8rem 2.5rem !important;
     margin-left: 1.5rem;
   }
-  .m-list {
-    margin-left: 2rem;
+  .text-h-font {
+    font-size: 50px;
+  }
+  .text-p-font {
+    font-size: 22px;
   }
 }
 
@@ -336,12 +354,21 @@
   .show-block {
     display: none;
   }
-  .m-list {
+  .text-h-font {
+    font-size: 36px;
+  }
+  .text-p-font {
+    font-size: 20px;
+  }
+  .list-ml {
     margin-left: 1.5rem;
   }
 }
 
 @media (min-width: 360px) and (max-width: 416px) {
+  .text-li-font {
+    font-size: 0.9rem;
+  }
   .primary-btn {
     display: none !important;
   }
@@ -371,7 +398,13 @@
   .show-block {
     display: none;
   }
-  .m-list {
+  .text-h-font {
+    font-size: 1.75rem;
+  }
+  .text-p-font {
+    font-size: 1.15rem;
+  }
+  .list-ml {
     margin-left: 1rem;
   }
 }
@@ -413,10 +446,19 @@
   .show-block {
     display: none;
   }
-  .m-text {
+  .text-h-font {
+    font-size: 1.67rem;
+  }
+  .text-p-font {
+    font-size: 14px;
+  }
+  .text-li-font {
+    font-size: 0.67rem;
+  }
+  .text-ml {
     margin-left: 0.35rem;
   }
-  .m-list {
-    margin-left: 1rem;
+  .list-ml {
+    margin-left: 0.7rem;
   }
 }

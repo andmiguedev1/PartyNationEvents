@@ -219,10 +219,22 @@ strong {
   display: block;
 }
 
-.m-text {
+.text-ml {
   margin-left: 0.5rem;
 }
 
-.m-list {
+.text-li-font {
+  font-size: 1.05rem;
+}
+
+.text-p-font {
+  font-size: 1.2rem;
+}
+
+.text-h-font {
+  font-size: 1.5rem;
+}
+
+.list-ml {
   margin-left: 2rem;
 }
