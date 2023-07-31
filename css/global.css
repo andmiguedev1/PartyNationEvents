@@ -2,7 +2,7 @@
   SITE VARIABLES             
 -----------------------------------------*/
 :root {
-  --white-color: #ffffff;
+  --white-color: #fdf0f0;
   --primary-color: #1424d9;
   --secondary-color: #ec3411;
   --tertiary-color: #662cba;
@@ -183,6 +183,10 @@ strong {
   color: var(--primary-color) !important;
 }
 
+.text-white {
+  color: var(--white-color) !important;
+}
+
 .text-lead {
   color: #464343 !important;
 }
@@ -194,8 +198,18 @@ strong {
 /*---------------------------------------
   Custom             
 -----------------------------------------*/
+.text-subtitle {
+  font-size: 19px;
+  font-weight: 500;
+  color: #f0f8ff;
+}
+
 .font-medium {
   font-weight: 600;
+}
+
+.text-accent {
+  color: #ed9119;
 }
 
 .text-tertiary {
@@ -204,10 +218,25 @@ strong {
 
 .bg-section {
   background-color: rgb(242, 242, 247);
+  padding-bottom: 60px;
 }
 
 .bg-tertiary {
   background-color: var(--tertiary-color);
+}
+
+
+.bg-pattern {
+  padding: 100px 0 110px;
+  background-image: radial-gradient(
+      rgba(63, 23, 164, 0.85),
+      rgba(109, 30, 183, 0.85)
+    ),
+    url(../img/services-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .h-adjust img {
