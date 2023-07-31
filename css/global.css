@@ -198,10 +198,25 @@ strong {
 /*---------------------------------------
   Custom             
 -----------------------------------------*/
-.text-subtitle {
+.section-pad {
+  padding: 100px 0 110px;
+}
+
+.header-feature {
   font-size: 19px;
+}
+
+.header-title {
+  font-size: 38px;
+}
+
+.header-subtitle {
+  font-size: 21px;
+  /* color: #f0f8ff; */
+}
+
+.font-light {
   font-weight: 500;
-  color: #f0f8ff;
 }
 
 .font-medium {
@@ -227,7 +242,6 @@ strong {
 
 
 .bg-pattern {
-  padding: 100px 0 110px;
   background-image: radial-gradient(
       rgba(63, 23, 164, 0.85),
       rgba(109, 30, 183, 0.85)

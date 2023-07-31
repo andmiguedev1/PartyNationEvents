@@ -321,12 +321,32 @@
     width: 3rem;
     height: 3rem;
   }
+  .service-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .single-service {
+    padding: 30px;
+    padding-bottom: 10px;
+  }
+  .section-pad {
+    padding: 80px 0 95px;
+  }
   .cta-btn {
     padding: 0.8rem 2.5rem !important;
     margin-left: -4.5rem;
   }
   .show-block {
     display: none;
+  }
+  .header-feature {
+    font-size: 1.35rem;
+  }
+  .header-title {
+    font-size: 2.5rem;
+  }
+  .header-subtitle {
+    font-size: 22px;
   }
   .text-h-font {
     font-size: 35px;
@@ -362,10 +382,30 @@
     width: 2.7rem;
     height: 2.7rem;
   }
+  .section-pad {
+    padding: 75px 0 85px;
+  }
+  .service-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .single-service {
+    padding: 25px;
+    padding-bottom: 8px;
+  }
   .cta-btn {
     margin-top: 0.5rem;
     padding: 0.8rem 2.5rem !important;
     margin-left: 1.5rem;
+  }
+  .header-feature {
+    font-size: 1.35rem;
+  }
+  .header-title {
+    font-size: 2.2rem;
+  }
+  .header-subtitle {
+    font-size: 23px;
   }
   .text-h-font {
     font-size: 50px;
@@ -398,6 +438,18 @@
     width: 2.5rem;
     height: 2.5rem;
   }
+  .service-cards {
+    margin: 0 3%;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+  }
+  .single-service {
+    padding: 40px;
+    padding-bottom: 15px;
+  }
+  .section-pad {
+    padding: 55px 0 75px;
+  }
   .cta-btn {
     margin-top: 0.5rem;
     padding: 0.6rem 2rem !important;
@@ -405,6 +457,15 @@
   }
   .show-block {
     display: none;
+  }
+  .header-feature {
+    font-size: 1.3rem;
+  }
+  .header-title {
+    font-size: 2.8rem;
+  }
+  .header-subtitle {
+    font-size: 21px;
   }
   .text-h-font {
     font-size: 36px;
@@ -444,11 +505,30 @@
     width: 2.7rem;
     height: 2.7rem;
   }
+  .service-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .single-service {
+    max-width: 370px;
+    padding: 20px;
+  }
+  .section-pad {
+    padding: 55px 0 50px;
+  }
   .cta-btn {
     padding: 0.7rem 2.2rem !important;
   }
   .show-block {
     display: none;
+  }
+  .header-feature {
+    font-size: 1.1rem;
+  }
+  .header-title {
+    font-size: 2.1rem;
+  }
+  .header-subtitle {
+    font-size: 20px;
   }
   .text-h-font {
     font-size: 1.75rem;
@@ -492,11 +572,30 @@
     width: 2.4rem;
     height: 2.4rem;
   }
+  .service-cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  .single-service {
+    padding: 19px;
+  }
+  .section-pad {
+    padding: 50px 0 60px;
+  }
   .cta-btn {
     padding: 0.5rem 1.5rem !important;
   }
   .show-block {
     display: none;
+  }
+  .header-feature {
+    font-size: 1rem;
+  }
+  .header-title {
+    font-size: 1.4rem;
+  }
+  .header-subtitle {
+    font-size: 1.07rem;
   }
   .text-h-font {
     font-size: 1.67rem;
